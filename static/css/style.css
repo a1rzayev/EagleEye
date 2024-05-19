@@ -1,3 +1,95 @@
+@import url("variables/colors.css");
+@import url("variables/sizes.css");
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-toggler-icon {
+    background-color: #333;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.burger-menu {
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    z-index: 1;
+}
+
+.overlay .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay .nav-links li {
+    margin: 15px 0;
+}
+
+.overlay .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.overlay .nav-links a:hover {
+    color: #f1c40f;
+}
+
+.burger.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.toggle .line2 {
+    opacity: 0;
+}
+
+.burger.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.overlay.show {
+    transform: translateX(0);
+}
+
+
 .form-group {
     max-width: 300px;
     margin: 0 auto;
@@ -14,6 +106,18 @@
     margin-right: 20px;
 }
 
+<<<<<<< HEAD
+/* Login Form Styles */
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhanced box shadow */
+    background-color: #ffffff;
+}
+
+=======
 .login-form {
     width: 100%;
     max-width: 400px;
@@ -22,17 +126,26 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
 }
+>>>>>>> master
 .login-form h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333333;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .login-form label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
     color: #555555;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .login-form input[type="text"],
 .login-form input[type="password"] {
     width: 100%;
@@ -42,11 +155,19 @@
     border-radius: 5px;
     transition: border-color 0.3s ease;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .login-form input[type="text"]:focus,
 .login-form input[type="password"]:focus {
     outline: none;
     border-color: #5bc0de;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .login-form button {
     width: 100%;
     padding: 10px;
@@ -57,9 +178,17 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+<<<<<<< HEAD
+
 .login-form button:hover {
     background-color: #0056b3;
 }
+
+=======
+.login-form button:hover {
+    background-color: #0056b3;
+}
+>>>>>>> master
 .login-form a {
     display: block;
     text-align: center;
@@ -67,16 +196,37 @@
     text-decoration: none;
     transition: color 0.3s ease;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .login-form a:hover {
     color: #0056b3;
 }
 
+<<<<<<< HEAD
+/* Center Container for Flexbox Alignment */
+=======
+>>>>>>> master
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+<<<<<<< HEAD
+
+/* Signup Form Styles */
+.signup-form {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    background-color: #ffffff;
+}
+
+=======
 .signup-form {
     width: 100%;
     max-width: 350px; /* Maximum width of the form */
@@ -85,17 +235,42 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
 }
+>>>>>>> master
 .signup-form h1 {
     text-align: center;
     margin-bottom: 15px;
     color: #333333;
 }
+<<<<<<< HEAD
+.form-group {
+    margin-bottom: 0.5rem; 
+}
+.card {
+    padding: 1rem; 
+}
+.btn {
+    margin-top: 1rem; 
+}
+.card h1 {
+    margin-bottom: 1rem;
+    
+}
+.text-center.mt-2 {
+    margin-top: 0.5rem;
+}
+
+=======
+>>>>>>> master
 .signup-form label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
     color: #555555;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .signup-form input[type="text"],
 .signup-form input[type="password"] {
     width: 100%;
@@ -105,11 +280,19 @@
     border-radius: 5px;
     transition: border-color 0.3s ease;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .signup-form input[type="text"]:focus,
 .signup-form input[type="password"]:focus {
     outline: none;
     border-color: #5bc0de;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 .signup-form button {
     width: 100%;
     padding: 10px;
@@ -120,9 +303,17 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+<<<<<<< HEAD
+
 .signup-form button:hover {
     background-color: #218838;
 }
+
+=======
+.signup-form button:hover {
+    background-color: #218838;
+}
+>>>>>>> master
 .signup-form a {
     display: block;
     text-align: center;
@@ -130,6 +321,105 @@
     text-decoration: none;
     transition: color 0.3s ease;
 }
+<<<<<<< HEAD
+
 .signup-form a:hover {
     color: #0056b3;
+}
+
+
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+.services_burger_menu li:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+.services_burger_menu {
+    display: none;
+    flex-direction: column;
+    margin-top: 17px;
+    border-width: 2px;
+    border-color: #dbdbdb;
+    border-style: none solid solid solid;
+    width: 150%;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.services_burger_menu a {
+    padding: 0;
+    padding-right: 50%;
+    padding-left: 9%;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-toggler {
+    order: -1;
+}
+
+.navbar-collapse {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 30px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+=======
+.signup-form a:hover {
+    color: #0056b3;
+>>>>>>> master
 }

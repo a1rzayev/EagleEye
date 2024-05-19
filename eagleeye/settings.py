@@ -25,7 +25,7 @@ SECRET_KEY = '9-_e$=m=tf$q9yv=+*-qzrm8w459y)mq70p$3_rff#apd14q@p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.54.118','127.0.0.1']
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    'accounts'
+    'accounts',
+    'telco'
 ]
 
 MIDDLEWARE = [
