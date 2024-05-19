@@ -106,6 +106,7 @@ header {
     margin-right: 20px;
 }
 
+<<<<<<< HEAD
 /* Login Form Styles */
 .login-form {
     width: 100%;
@@ -116,19 +117,35 @@ header {
     background-color: #ffffff;
 }
 
+=======
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+>>>>>>> master
 .login-form h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333333;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .login-form label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
     color: #555555;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .login-form input[type="text"],
 .login-form input[type="password"] {
     width: 100%;
@@ -138,13 +155,19 @@ header {
     border-radius: 5px;
     transition: border-color 0.3s ease;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .login-form input[type="text"]:focus,
 .login-form input[type="password"]:focus {
     outline: none;
     border-color: #5bc0de;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .login-form button {
     width: 100%;
     padding: 10px;
@@ -155,11 +178,17 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+<<<<<<< HEAD
 
 .login-form button:hover {
     background-color: #0056b3;
 }
 
+=======
+.login-form button:hover {
+    background-color: #0056b3;
+}
+>>>>>>> master
 .login-form a {
     display: block;
     text-align: center;
@@ -167,18 +196,25 @@ header {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .login-form a:hover {
     color: #0056b3;
 }
 
+<<<<<<< HEAD
 /* Center Container for Flexbox Alignment */
+=======
+>>>>>>> master
 .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+<<<<<<< HEAD
 
 /* Signup Form Styles */
 .signup-form {
@@ -190,11 +226,22 @@ header {
     background-color: #ffffff;
 }
 
+=======
+.signup-form {
+    width: 100%;
+    max-width: 350px; /* Maximum width of the form */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+>>>>>>> master
 .signup-form h1 {
     text-align: center;
     margin-bottom: 15px;
     color: #333333;
 }
+<<<<<<< HEAD
 .form-group {
     margin-bottom: 0.5rem; 
 }
@@ -212,13 +259,18 @@ header {
     margin-top: 0.5rem;
 }
 
+=======
+>>>>>>> master
 .signup-form label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
     color: #555555;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .signup-form input[type="text"],
 .signup-form input[type="password"] {
     width: 100%;
@@ -228,13 +280,19 @@ header {
     border-radius: 5px;
     transition: border-color 0.3s ease;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .signup-form input[type="text"]:focus,
 .signup-form input[type="password"]:focus {
     outline: none;
     border-color: #5bc0de;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .signup-form button {
     width: 100%;
     padding: 10px;
@@ -245,11 +303,17 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+<<<<<<< HEAD
 
 .signup-form button:hover {
     background-color: #218838;
 }
 
+=======
+.signup-form button:hover {
+    background-color: #218838;
+}
+>>>>>>> master
 .signup-form a {
     display: block;
     text-align: center;
@@ -257,6 +321,7 @@ header {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+<<<<<<< HEAD
 
 .signup-form a:hover {
     color: #0056b3;
@@ -353,4 +418,8 @@ header {
 .active {
   background-color: #04AA6D;
   color: white;
+=======
+.signup-form a:hover {
+    color: #0056b3;
+>>>>>>> master
 }

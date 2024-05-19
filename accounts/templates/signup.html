@@ -3,6 +3,7 @@
 {% block title %}Signup{% endblock %}
 
 {% block content %}
+<<<<<<< HEAD
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -34,3 +35,18 @@
     </div>
 </div>
 {% endblock %}
+=======
+
+<div class="center-container">
+    <div class="login-form">
+        <h1>Signup</h1>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Signup</button>
+            <p>Already have account?<a href="{% url 'login' %}">Log in</a></p>
+        </form>
+    </div>
+</div>
+{% endblock %}
+>>>>>>> master
